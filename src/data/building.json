@@ -1,0 +1,40 @@
+{
+  "building": "Gedung A",
+  "summary": {
+    "energyTodayKwh": 1250,
+    "avgTemperature": 24.5,
+    "avgCO2": 650
+  },
+  "rooms": [
+    {
+      "id": 1,
+      "name": "Ruang Meeting 1.1",
+      "floor": 1,
+      "temperature": 24,
+      "co2": 700,
+      "status": "Normal"
+    },
+    {
+      "id": 2,
+      "name": "Ruang Kerja 2.3",
+      "floor": 2,
+      "temperature": 26.5,
+      "co2": 900,
+      "status": "Warning"
+    },
+    {
+      "id": 3,
+      "name": "Ruang Server",
+      "floor": 1,
+      "temperature": 30,
+      "co2": 1100,
+      "status": "Alert"
+    }
+  ],
+  "energyTrend": [
+    { "hour": "00:00", "kwh": 20 },
+    { "hour": "01:00", "kwh": 18 },
+    { "hour": "02:00", "kwh": 22 },
+    { "hour": "03:00", "kwh": 25 }
+  ]
+}
