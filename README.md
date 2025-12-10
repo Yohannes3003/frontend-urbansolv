@@ -1,16 +1,75 @@
-# React + Vite
+## Test Case Frontend — Urbansolv
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Project ini merupakan implementasi Frontend menggunakan React.js, Shadcn UI, dan Lucide Icons, dengan struktur komponen yang modular untuk mempermudah pengembangan, pemeliharaan, dan scale-up.
 
-Currently, two official plugins are available:
+## Cara Menjalankan Project
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Ikuti langkah berikut untuk menjalankan project di local environment:
 
-## React Compiler
+1. Download Repository Git / Atau Clone
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+2. Ekstrak File
 
-## Expanding the ESLint configuration
+Ekstrak file .zip atau .7z ke folder mana pun yang kamu inginkan.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+3. Buka CMD lalu pindah ke direktori frontend-urbansolv
+
+Masuk ke folder project:
+frontend-urbansolv
+
+4. Install Dependencies
+
+Lalu anda buka projectnya, jalankan:
+
+```
+npm install
+```
+
+5. Jalankan Project
+
+Setelah instalasi selesai, jalankan aplikasi dengan perintah:
+
+```
+npm run dev
+```
+
+6. Akses di Browser
+
+```
+http://localhost:5173
+```
+
+## Teknologi yang Digunakan
+
+| Teknologi         |
+| ----------------- |
+| **React + Vite**  |
+| **Tailwind CSS**  |
+| **Recharts**      |
+| **Lucide Reacts** |
+
+## Struktur Folder
+
+Berikut struktur folder utama dalam project:
+
+```
+src/
+│
+├── assets/                 # Berisi file gambar, ikon, atau asset statis lainnya
+│
+├── components/             # Kumpulan komponen UI
+│   │
+│   ├── apps/               # Komponen halaman/page dashboard
+│   │   ├── Building3D.jsx
+│   │   ├── EnergyCharts.jsx
+│   │   ├── Navbar.jsx
+│   │   └── RoomssTable.jsx
+│   │   ├── StatusBadge.jsx
+│   │   └── SummaryCard.jsx
+│   │
+├── data/                   # File data dummy JSON
+│
+├── App.jsx                 # Root component aplikasi
+├── index.css               # Global stylesheet
+└── main.jsx                # Entry point aplikasi
+```
