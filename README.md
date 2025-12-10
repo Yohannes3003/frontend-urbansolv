@@ -1,6 +1,6 @@
 ## Test Case Frontend — Urbansolv
 
-Project ini merupakan implementasi Frontend menggunakan React + Vite, Tailwind CSS, Lucide Reacts dan Recharts.
+Project ini merupakan implementasi Frontend menggunakan React + Vite, Tailwind CSS, Lucide Reacts dan Recharts untuk menampilkan pemanantuan Smart Building Dashboard.
 
 ## Cara Menjalankan Project
 
@@ -8,18 +8,11 @@ Ikuti langkah berikut untuk menjalankan project di local environment:
 
 1. Download Repository Git / Atau Clone
 
-2. Ekstrak File
+2. Ekstrak file .zip ke folder mana pun yang kamu inginkan.
 
-Ekstrak file .zip atau .7z ke folder mana pun yang kamu inginkan.
+3. Masuk ke folder project: frontend-urbansolv
 
-3. Buka CMD lalu pindah ke direktori frontend-urbansolv
-
-Masuk ke folder project:
-frontend-urbansolv
-
-4. Install Dependencies
-
-Lalu anda buka projectnya, jalankan:
+4. Lalu anda buka projectnya, jalankan:
 
 ```
 npm install
@@ -67,8 +60,8 @@ src/
 │   │   ├── StatusBadge.jsx
 │   │   └── SummaryCard.jsx
 │   │
-├── data/                   # File data dummy JSON
-│
+├── data/                   # Data Json
+│    └── building.json      # Data dummy gedung & ruangan
 ├── App.jsx                 # Root UI component
 ├── index.css               # Global CSS configuration
 └── main.jsx                # React initializer
