@@ -1,6 +1,6 @@
 ## Test Case Frontend — Urbansolv
 
-Project ini merupakan implementasi Frontend menggunakan React.js, Shadcn UI, dan Lucide Icons, dengan struktur komponen yang modular untuk mempermudah pengembangan, pemeliharaan, dan scale-up.
+Project ini merupakan implementasi Frontend menggunakan React + Vite, Tailwind CSS, Lucide Reacts dan Recharts.
 
 ## Cara Menjalankan Project
 
@@ -36,7 +36,7 @@ npm run dev
 6. Akses di Browser
 
 ```
-http://localhost:5173
+http://localhost:5174
 ```
 
 ## Teknologi yang Digunakan
@@ -55,9 +55,9 @@ Berikut struktur folder utama dalam project:
 ```
 src/
 │
-├── assets/                 # Berisi file gambar, ikon, atau asset statis lainnya
+├── assets/                 # Berisi file gambar atau asset lainnya
 │
-├── components/             # Kumpulan komponen UI
+├── components/
 │   │
 │   ├── apps/               # Komponen halaman/page dashboard
 │   │   ├── Building3D.jsx
@@ -69,7 +69,7 @@ src/
 │   │
 ├── data/                   # File data dummy JSON
 │
-├── App.jsx                 # Root component aplikasi
-├── index.css               # Global stylesheet
-└── main.jsx                # Entry point aplikasi
+├── App.jsx                 # Root UI component
+├── index.css               # Global CSS configuration
+└── main.jsx                # React initializer
 ```
